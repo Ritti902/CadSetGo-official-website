@@ -2,13 +2,14 @@
 
 A modern, responsive company website for CadSetGo featuring product showcases, service pages, contact forms, and a clean user interface.
 
-[![Website](https://img.shields.io/badge/demo-live-brightgreen)](https://your-deployment-url.example)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Yes-blue)]()
-[![License](https://img.shields.io/badge/license-ADD_LICENSE-yellowgreen)]()
+[![Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://your-deployment-url.example)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Yes-blue)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-> A fast, accessible, and mobile-first marketing site for CadSetGo.
+> Fast, accessible, and mobile-first marketing site for CadSetGo.
 
-## Table of contents
+Table of contents
+- [Why this project](#why-this-project)
 - [Demo](#demo)
 - [Features](#features)
 - [Tech stack](#tech-stack)
@@ -16,123 +17,167 @@ A modern, responsive company website for CadSetGo featuring product showcases, s
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Run locally](#run-locally)
-  - [Build](#build)
+  - [Build & Preview](#build--preview)
+  - [Common scripts](#common-scripts)
+- [Environment](#environment)
 - [Deployment](#deployment)
 - [Project structure](#project-structure)
+- [Design & accessibility notes](#design--accessibility-notes)
 - [Contributing](#contributing)
-- [Reporting issues](#reporting-issues)
+- [Issues & Support](#issues--support)
+- [Releases & changelog](#releases--changelog)
 - [License](#license)
-- [Contact](#contact)
+- [Maintainers / Contact](#maintainers--contact)
 - [Acknowledgements](#acknowledgements)
 
-## Demo
+Why this project
+-----------------
+This repository holds the official marketing website for CadSetGo. The site is intended to showcase products and services, collect leads via contact forms, and serve as a fast, SEO-friendly entry point for prospective customers.
 
+Demo
+----
 Live demo: https://your-deployment-url.example
 
-(Replace the link above with your actual deployment URL.)
+Replace the link above with your production URL (Vercel/Netlify/GitHub Pages, etc.). Add screenshots under `/public/screenshots` and reference them here for a nicer landing in the README.
 
-## Features
+Features
+--------
+- Responsive, mobile-first UI
+- Product and services pages with SEO metadata
+- Contact form (serverless function or third-party integration)
+- Image optimization and lazy-loading
+- Accessible components (ARIA, keyboard support)
+- Easy deployment to Vercel or Netlify
 
-- Fully responsive layout for desktop/tablet/mobile
-- Product and service showcase pages
-- Contact form (Netlify/Vercel functions or third-party)
-- SEO-friendly metadata and social sharing previews
-- Accessible components and good performance practices
+Tech stack
+----------
+- Primary language: TypeScript
+- Framework: (React / Next.js / Vite) — update this to match the repo
+- Styling: Tailwind CSS or custom CSS — update to match the repo
+- Optional: Netlify/Vercel for hosting
 
-## Tech stack
+Quick start
+-----------
+These commands assume the usual scripts. If your project uses different script names, update them in package.json or adjust the commands below.
 
-- TypeScript (frontend)
-- React / Next.js / Vite (update this to whichever framework youre using)
-- Tailwind CSS or custom CSS (mention the styling approach)
-- Optional: Netlify / Vercel for deployment
+Prerequisites
+- Node.js 16+ (recommended LTS)
+- npm, yarn, or pnpm
 
-## Quick start
-
-### Prerequisites
-
-- Node.js >= 16
-- npm or yarn
-- (Optional) pnpm
-
-### Install
-
+Install
 1. Clone the repo:
-   ```bash
+
    git clone https://github.com/Ritti902/CadSetGo-official-website.git
    cd CadSetGo-official-website
-   ```
+
 2. Install dependencies:
-   ```bash
+
    npm install
    # or
-   yarn
-   ```
+   yarn install
+   # or
+   pnpm install
 
-### Run locally
+Run locally
 
-```bash
 npm run dev
 # or
 yarn dev
-```
 
-Open http://localhost:3000 (or port specified by your framework).
+Open http://localhost:3000 (or the port your framework uses).
 
-### Build
+Build & Preview
 
-```bash
 npm run build
 npm run start
 # or
 yarn build
 yarn start
-```
 
-## Deployment
+Common scripts (add these to package.json if missing)
+- dev: Start local development server (e.g. next dev / vite)
+- build: Build static assets or production bundle
+- start: Start production server (if applicable)
+- lint: Run linter (ESLint)
+- format: Run formatter (Prettier)
+- test: Run tests (Jest / Vitest)
 
-- Recommended: Deploy to Vercel or Netlify.
-  - For Vercel: connect the GitHub repo, set the build command to `npm run build` (or the framework default), and the output directory depending on framework (Next.js: none, Vite: `dist`).
-  - For Netlify: set build command and publish directory accordingly and enable form handling for contact form if used.
-- Add environment variables in the hosting dashboard if your contact form or API requires them.
+Environment
+-----------
+Create a `.env.local` (gitignored) for local environment variables. Example `.env.local.example` to track required variables in the repo:
 
-## Project structure
+NEXT_PUBLIC_API_URL=https://api.example.com
+CONTACT_FORM_ENDPOINT=/api/contact
 
-Provide a short overview of the main folders:
+Make sure to never commit secret keys to the repo.
 
-```
+Deployment
+----------
+Recommended platforms: Vercel or Netlify.
+
+Vercel
+- Connect the GitHub repository in the Vercel dashboard.
+- Set the build command to `npm run build` and the output directory as required by your framework (Next.js: none; Vite: `dist`).
+- Add any environment variables in the Vercel project settings.
+
+Netlify
+- Connect the GitHub repository and configure the build command and publish directory.
+- Enable form handling if using Netlify forms for the contact page.
+
+Project structure
+-----------------
+Adjust this to reflect the actual layout of your repository. Suggested structure:
+
 /src
-  /components    # UI components
-  /pages         # Pages (or /routes for some frameworks)
-  /styles        # Global styles or Tailwind config
-  /public        # Images and static assets
-README.md
+  /components    # Reusable UI components
+  /pages         # Route pages (or /routes)
+  /styles        # Global styles, Tailwind config
+  /lib           # Utilities and API wrappers
+  /public        # Static assets (images, icons, screenshots)
 package.json
-```
+README.md
 
-(Adjust to match your repo exactly.)
+Design & accessibility notes
+----------------------------
+- Follow semantic HTML and proper heading structure.
+- Ensure focus outlines are visible for keyboard users.
+- Use ARIA attributes where necessary and test with a screen reader.
+- Keep color contrast above WCAG AA for body text.
 
-## Contributing
+Contributing
+------------
+Contributions are welcome! To make collaboration smooth, please follow these steps:
 
-Thanks for your interest in contributing! Suggested flow:
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feat/short-description`.
+3. Commit changes with clear messages following Conventional Commits (e.g., `feat: add contact form handler`).
+4. Push the branch to your fork and open a Pull Request against `main`.
 
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feat/my-feature`
-3. Commit and push
-4. Open a pull request describing your changes
+PR checklist (add as PR template if desired)
+- [ ] Branch created from latest main
+- [ ] Tests added/updated (if applicable)
+- [ ] Linting and formatting passes
+- [ ] README updated (if the change affects usage or setup)
 
-Please follow the projects coding style (TypeScript, linting, formatting). Add tests for new logic where applicable.
+Code of Conduct
+---------------
+Please add a `CODE_OF_CONDUCT.md` file to set community expectations. Consider using the Contributor Covenant: https://www.contributor-covenant.org/
 
-## Reporting issues
-
-If you find a bug or want a feature, open an issue with:
-- A short title
-- Steps to reproduce
+Issues & Support
+----------------
+When opening an issue, please include:
+- A clear title and reproduction steps
 - Expected vs actual behavior
-- Screenshots or console logs if applicable
+- Environment (browser, OS, Node version)
+- Screenshots or logs if available
 
-## License
+Releases & changelog
+--------------------
+Use semantic versioning and keep a `CHANGELOG.md`. Consider using GitHub Releases or a changelog generator like `standard-version`.
 
-Add a license file (LICENSE). If you dont have one yet, consider the MIT License:
+License
+-------
+This project is licensed under the MIT License — see the `LICENSE` file for details.
 
 ```
 MIT License
@@ -158,21 +203,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-(Replace YEAR and Your Name as appropriate.)
+Maintainers / Contact
+---------------------
+- Maintainer: Ritti902 (https://github.com/Ritti902)
+- Repo: https://github.com/Ritti902/CadSetGo-official-website
+- Email: your-email@example.com (replace with preferred contact)
 
-## Contact
+Acknowledgements
+----------------
+- Tailwind UI / Flowbite / any design libraries used
+- Icons: FontAwesome, Heroicons, etc.
+- Inspirations and templates
 
-Maintainer: Ritti902  
-Repository: https://github.com/Ritti902/CadSetGo-official-website  
-Email: your-email@example.com (replace as desired)
-
-## Acknowledgements
-
-- Any libraries, templates, icons, or tutorials you used
-- Design or asset credits (photos, icons)
-
-## Notes / TODOs
-
-- Add screenshots or GIFs of the site in the README (drop them into `/public/screenshots` and reference with `![screenshot](./public/screenshots/home.png)`).
-- Fill in the demo badge & license badge URLs.
-- Add CI badges (GitHub Actions) if you add tests or checks.
+TODOs & ideas
+-------------
+- Add automated tests and CI (GitHub Actions) with linting and build checks.
+- Add screenshots and GIFs to README.
+- Add a contact form backend or integration with a service (Formspree, Netlify Forms, or custom serverless function).
+- Add sitemap.xml and robots.txt for SEO improvements.
