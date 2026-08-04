@@ -1,0 +1,122 @@
+[
+  {
+    "id": "npd-products",
+    "title": "NPD Products",
+    "short_description": "Innovative new product designs ready for market",
+    "full_description": "Our NPD Products represent the culmination of comprehensive new product development processes. From consumer electronics to industrial equipment, we create market-ready designs that balance innovation, functionality, and manufacturability. Each product is developed with a focus on user experience, cost optimization, and competitive differentiation.",
+    "icon": "Activity",
+    "specifications": "[\"Market-validated designs\", \"DFM-optimized for production\", \"Comprehensive testing and validation\", \"Patent and IP consideration\", \"Regulatory compliance\", \"Complete documentation package\"]",
+    "applications": "[\"Consumer product launches\", \"Industrial equipment introduction\", \"Medical device development\", \"Electronics product design\", \"Smart device integration\", \"IoT-enabled products\"]",
+    "key_features": "[\"User-centric design approach\", \"Rapid time-to-market\", \"Cost-optimized solutions\", \"Sustainable design practices\", \"Scalable manufacturing\", \"Market differentiation\"]",
+    "technical_details": "[{\"label\": \"Development Cycle\", \"value\": \"3-12 months\"}, {\"label\": \"Prototyping\", \"value\": \"Functional and appearance prototypes\"}, {\"label\": \"Testing\", \"value\": \"Performance, durability, usability\"}, {\"label\": \"Documentation\", \"value\": \"Full technical and user documentation\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "medical-equipment",
+    "title": "Medical Equipment",
+    "short_description": "Precision healthcare devices and equipment",
+    "full_description": "Our Medical Equipment designs prioritize patient safety, clinical efficacy, and regulatory compliance. From diagnostic devices to surgical instruments and patient monitoring systems, we create medical solutions that meet the strictest industry standards. Each design undergoes rigorous verification and validation processes to ensure safety and effectiveness.",
+    "icon": "Stethoscope",
+    "specifications": "[\"FDA/CE compliant designs\", \"ISO 13485 quality management\", \"Biocompatible materials\", \"Sterilization-compatible\", \"Risk management (ISO 14971)\", \"Clinical validation support\"]",
+    "applications": "[\"Diagnostic imaging equipment\", \"Surgical instruments and tools\", \"Patient monitoring devices\", \"Laboratory equipment\", \"Rehabilitation devices\", \"Point-of-care diagnostics\"]",
+    "key_features": "[\"Regulatory compliance assurance\", \"Ergonomic design for healthcare professionals\", \"Patient safety focus\", \"Easy cleaning and sterilization\", \"Reliable long-term performance\", \"Intuitive user interfaces\"]",
+    "technical_details": "[{\"label\": \"Regulatory\", \"value\": \"FDA 510(k), CE Mark, ISO 13485\"}, {\"label\": \"Materials\", \"value\": \"Medical-grade polymers, stainless steel\"}, {\"label\": \"Testing\", \"value\": \"Biocompatibility, sterilization validation\"}, {\"label\": \"Documentation\", \"value\": \"Design history file, risk analysis\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "3d-printed-components",
+    "title": "3D Printed Components",
+    "short_description": "Rapid prototyping and additive manufactured parts",
+    "full_description": "Our 3D Printed Components leverage the latest additive manufacturing technologies to create complex geometries, custom parts, and rapid prototypes. We optimize designs specifically for 3D printing, enabling lightweight structures, integrated assemblies, and mass customization. Ideal for prototyping, low-volume production, and custom manufacturing.",
+    "icon": "Printer",
+    "specifications": "[\"Multiple 3D printing technologies (FDM, SLA, SLS, Metal)\", \"Design optimized for additive manufacturing\", \"High-resolution printing capabilities\", \"Wide material selection\", \"Post-processing available\", \"Quality assurance and inspection\"]",
+    "applications": "[\"Functional prototypes\", \"Custom tooling and fixtures\", \"End-use production parts\", \"Medical implants and prosthetics\", \"Aerospace components\", \"Architectural models\"]",
+    "key_features": "[\"Complex geometry capabilities\", \"Rapid turnaround times\", \"No tooling costs\", \"Mass customization\", \"Lightweight optimization\", \"On-demand manufacturing\"]",
+    "technical_details": "[{\"label\": \"Technologies\", \"value\": \"FDM, SLA, SLS, DMLS, Binder Jetting\"}, {\"label\": \"Materials\", \"value\": \"PLA, ABS, Nylon, Resin, Metals, Composites\"}, {\"label\": \"Accuracy\", \"value\": \"±0.1mm to ±0.5mm (technology dependent)\"}, {\"label\": \"Lead Time\", \"value\": \"1-7 days\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "robotic-systems",
+    "title": "Robotic Systems",
+    "short_description": "Intelligent automation and robotic solutions",
+    "full_description": "Our Robotic Systems deliver intelligent automation solutions for manufacturing, logistics, and service applications. We design complete robotic cells including robot selection, end-effector design, safety systems, and integration with existing processes. Our solutions enhance productivity, improve quality, and create safer working environments.",
+    "icon": "Bot",
+    "specifications": "[\"Collaborative and industrial robots\", \"Custom end-effector design\", \"Vision system integration\", \"Safety system compliance\", \"PLC/robot controller integration\", \"Simulation and offline programming\"]",
+    "applications": "[\"Pick and place operations\", \"Assembly automation\", \"Welding and material joining\", \"Inspection and quality control\", \"Machine tending\", \"Packaging and palletizing\"]",
+    "key_features": "[\"Increased throughput\", \"Consistent quality and precision\", \"Flexible and reconfigurable\", \"Safe human-robot collaboration\", \"24/7 operation capability\", \"Data collection and analytics\"]",
+    "technical_details": "[{\"label\": \"Robot Types\", \"value\": \"6-axis, SCARA, Delta, Collaborative\"}, {\"label\": \"Payload\", \"value\": \"Up to 1000kg\"}, {\"label\": \"Reach\", \"value\": \"500mm to 3500mm\"}, {\"label\": \"Cycle Time\", \"value\": \"Optimized per application\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "furniture-systems",
+    "title": "Furniture Systems",
+    "short_description": "Modern interior and furniture design solutions",
+    "full_description": "Our Furniture Systems combine aesthetic appeal with functional excellence. We design modular furniture solutions for offices, retail spaces, healthcare facilities, and residential applications. Each design considers ergonomics, sustainability, and modern manufacturing methods to create furniture that performs and inspires.",
+    "icon": "Sofa",
+    "specifications": "[\"Modular and configurable designs\", \"Ergonomically optimized\", \"Sustainable material options\", \"Easy assembly and disassembly\", \"Customizable finishes\", \"Compliance with furniture standards\"]",
+    "applications": "[\"Office workstations\", \"Reception areas\", \"Retail displays and fixtures\", \"Healthcare furniture\", \"Educational furniture\", \"Residential furniture\"]",
+    "key_features": "[\"Modern aesthetic design\", \"Ergonomic comfort\", \"Durable construction\", \"Space optimization\", \"Easy reconfiguration\", \"Sustainable materials\"]",
+    "technical_details": "[{\"label\": \"Materials\", \"value\": \"Wood, Metal, Plastic, Composites\"}, {\"label\": \"Finishes\", \"value\": \"Powder coat, Laminate, Veneer\"}, {\"label\": \"Standards\", \"value\": \"BIFMA, ANSI, ISO 9001\"}, {\"label\": \"Warranty\", \"value\": \"5-10 years (product dependent)\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "prototypes-models",
+    "title": "Prototypes & Models",
+    "short_description": "Physical and virtual prototypes for validation",
+    "full_description": "Our Prototypes & Models service provides both physical prototypes and virtual models for design validation and testing. From appearance models to functional prototypes, we help you visualize and validate your designs before committing to production. Virtual prototypes enable early-stage testing and design optimization.",
+    "icon": "FlaskConical",
+    "specifications": "[\"Appearance and functional prototypes\", \"Multiple fabrication methods\", \"Virtual reality visualization\", \"Physical testing capabilities\", \"Iterative design refinement\", \"Material and finish matching\"]",
+    "applications": "[\"Design validation\", \"User testing and feedback\", \"Marketing and presentations\", \"Functional testing\", \"Fit and assembly verification\", \"Investor presentations\"]",
+    "key_features": "[\"Rapid turnaround\", \"Multiple prototype types\", \"Early design validation\", \"Risk reduction\", \"Cost-effective iteration\", \"High-fidelity models\"]",
+    "technical_details": "[{\"label\": \"Methods\", \"value\": \"3D Printing, CNC, Casting, VR Modeling\"}, {\"label\": \"Materials\", \"value\": \"Plastics, Metals, Composites, Foam\"}, {\"label\": \"Accuracy\", \"value\": \"±0.1mm to ±1mm\"}, {\"label\": \"Lead Time\", \"value\": \"3-14 days\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "reverse-engineered-parts",
+    "title": "Reverse Engineered Parts",
+    "short_description": "Recreated components with enhanced features",
+    "full_description": "Our Reverse Engineered Parts service recreates existing components with improved features and performance. Using advanced 3D scanning and CAD modeling, we capture the geometry of physical parts and create accurate digital models. This enables part reproduction, design improvements, and legacy part replacement.",
+    "icon": "RotateCcw",
+    "specifications": "[\"High-precision 3D scanning\", \"Parametric CAD model creation\", \"Tolerance analysis\", \"Design improvement options\", \"Material upgrade recommendations\", \"Complete manufacturing documentation\"]",
+    "applications": "[\"Obsolete part replacement\", \"Legacy equipment support\", \"Product improvement\", \"Competitive analysis\", \"Quality control inspection\", \"Digital archiving\"]",
+    "key_features": "[\"Accurate part recreation\", \"Design enhancement opportunities\", \"No original drawings required\", \"Fast turnaround\", \"Manufacturing-ready output\", \"Quality verification\"]",
+    "technical_details": "[{\"label\": \"Scanning Accuracy\", \"value\": \"±0.01mm to ±0.05mm\"}, {\"label\": \"CAD Software\", \"value\": \"SolidWorks, CATIA, NX, Creo\"}, {\"label\": \"Output Formats\", \"value\": \"Native CAD, STEP, IGES, STL\"}, {\"label\": \"Lead Time\", \"value\": \"5-10 days\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "industrial-designs",
+    "title": "Industrial Designs",
+    "short_description": "Comprehensive mechanical and industrial products",
+    "full_description": "Our Industrial Designs cover a wide range of mechanical and industrial products including machinery, equipment, and components. We provide complete design services from concept to production, ensuring robust engineering, cost-effectiveness, and manufacturability. Each design is optimized for performance, reliability, and ease of maintenance.",
+    "icon": "Lightbulb",
+    "specifications": "[\"Complete product design\", \"Structural and stress analysis\", \"Material selection optimization\", \"Manufacturing process planning\", \"Cost optimization\", \"Complete technical documentation\"]",
+    "applications": "[\"Industrial machinery\", \"Material handling equipment\", \"Process equipment\", \"Power transmission systems\", \"Pressure vessels\", \"Custom industrial solutions\"]",
+    "key_features": "[\"Robust engineering design\", \"Optimized performance\", \"Cost-effective solutions\", \"Easy maintenance\", \"Long service life\", \"Compliance with industry codes\"]",
+    "technical_details": "[{\"label\": \"Design Standards\", \"value\": \"ASME, ANSI, DIN, ISO\"}, {\"label\": \"Analysis Tools\", \"value\": \"FEA, CFD, Motion Analysis\"}, {\"label\": \"Materials\", \"value\": \"Steel, Aluminum, Cast Iron, Composites\"}, {\"label\": \"Documentation\", \"value\": \"Drawings, BOM, Specifications\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "design-patent",
+    "title": "Design Patent",
+    "short_description": "Protects the unique, ornamental, and non-functional appearance of an item.",
+    "full_description": "A Design Patent safeguards the visual characteristics of a product, including its shape, configuration, pattern, or surface ornamentation. It is ideal for businesses and creators who want to prevent others from copying the distinctive look of their products. While it does not cover the product's function, it ensures exclusive rights to the design, helping you maintain a competitive edge in the market.",
+    "icon": "Lock",
+    "specifications": "[\"Covers ornamental design only\", \"Up to 15 years protection\", \"No renewal fees required\", \"Applicable to manufactured items\", \"Requires novelty and originality\", \"Does not protect function\"]",
+    "applications": "[\"Consumer products\", \"Packaging design\", \"Furniture and decor\", \"Electronics casings\", \"Fashion accessories\", \"Automotive parts\"]",
+    "key_features": "[\"Exclusive design rights\", \"Legal deterrent against copying\", \"Enhances product value\", \"Supports brand identity\", \"Simple application process\", \"No maintenance fees\"]",
+    "technical_details": "[{\"label\": \"Protection Term\", \"value\": \"15 years from grant date\"}, {\"label\": \"Jurisdiction\", \"value\": \"Country-specific\"}, {\"label\": \"Renewal\", \"value\": \"Not required\"}, {\"label\": \"Requirements\", \"value\": \"Novelty, non-functionality\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  },
+  {
+    "id": "utility-patent",
+    "title": "Utility Patent",
+    "short_description": "Protects new and useful inventions, processes, machines, and improvements.",
+    "full_description": "A Utility Patent provides legal protection for inventions that are new, useful, and non-obvious. This includes processes, machines, manufactured items, or compositions of matter, as well as improvements to any of these. Utility patents are essential for inventors and companies seeking to secure exclusive rights to their technological innovations, prevent unauthorized use, and enhance the commercial value of their inventions.",
+    "icon": "Award",
+    "specifications": "[\"Covers functional aspects\", \"Up to 20 years protection\", \"Requires periodic maintenance fees\", \"Broad scope of protection\", \"Must be novel and non-obvious\", \"Detailed technical disclosure required\"]",
+    "applications": "[\"Mechanical devices\", \"Software and algorithms\", \"Chemical compositions\", \"Manufacturing processes\", \"Medical devices\", \"Consumer electronics\"]",
+    "key_features": "[\"Exclusive commercial rights\", \"Deters competitors\", \"Enables licensing opportunities\", \"Protects core technology\", \"Supports R&D investment\", \"Legal recourse for infringement\"]",
+    "technical_details": "[{\"label\": \"Protection Term\", \"value\": \"20 years from filing date\"}, {\"label\": \"Jurisdiction\", \"value\": \"Country-specific\"}, {\"label\": \"Renewal\", \"value\": \"Maintenance fees required\"}, {\"label\": \"Requirements\", \"value\": \"Novelty, utility, non-obviousness\"}]",
+    "created_at": "2025-11-04 18:00:28"
+  }
+]

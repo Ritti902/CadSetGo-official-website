@@ -1,0 +1,26 @@
+  [
+     {
+      "id": "design-patent",
+      "title": "Design Patent",
+      "short_description": "Protects the unique, ornamental, and non-functional appearance of an item.",
+      "full_description": "A Design Patent safeguards the visual characteristics of a product, including its shape, configuration, pattern, or surface ornamentation. It is ideal for businesses and creators who want to prevent others from copying the distinctive look of their products. While it does not cover the product's function, it ensures exclusive rights to the design, helping you maintain a competitive edge in the market.",
+      "icon": "Lock",
+      "specifications": "[\"Covers ornamental design only\", \"Up to 15 years protection\", \"No renewal fees required\", \"Applicable to manufactured items\", \"Requires novelty and originality\", \"Does not protect function\"]",
+      "applications": "[\"Consumer products\", \"Packaging design\", \"Furniture and decor\", \"Electronics casings\", \"Fashion accessories\", \"Automotive parts\"]",
+      "key_features": "[\"Exclusive design rights\", \"Legal deterrent against copying\", \"Enhances product value\", \"Supports brand identity\", \"Simple application process\", \"No maintenance fees\"]",
+      "technical_details": "[{\"label\": \"Protection Term\", \"value\": \"15 years from grant date\"}, {\"label\": \"Jurisdiction\", \"value\": \"Country-specific\"}, {\"label\": \"Renewal\", \"value\": \"Not required\"}, {\"label\": \"Requirements\", \"value\": \"Novelty, non-functionality\"}]",
+      "created_at": "2025-11-04 18:00:28"
+    },
+    {
+      "id": "utility-patent",
+      "title": "Utility Patent",
+      "short_description": "Protects new and useful inventions, processes, machines, and improvements.",
+      "full_description": "A Utility Patent provides legal protection for inventions that are new, useful, and non-obvious. This includes processes, machines, manufactured items, or compositions of matter, as well as improvements to any of these. Utility patents are essential for inventors and companies seeking to secure exclusive rights to their technological innovations, prevent unauthorized use, and enhance the commercial value of their inventions.",
+      "icon": "Award",
+      "specifications": "[\"Covers functional aspects\", \"Up to 20 years protection\", \"Requires periodic maintenance fees\", \"Broad scope of protection\", \"Must be novel and non-obvious\", \"Detailed technical disclosure required\"]",
+      "applications": "[\"Mechanical devices\", \"Software and algorithms\", \"Chemical compositions\", \"Manufacturing processes\", \"Medical devices\", \"Consumer electronics\"]",
+      "key_features": "[\"Exclusive commercial rights\", \"Deters competitors\", \"Enables licensing opportunities\", \"Protects core technology\", \"Supports R&D investment\", \"Legal recourse for infringement\"]",
+      "technical_details": "[{\"label\": \"Protection Term\", \"value\": \"20 years from filing date\"}, {\"label\": \"Jurisdiction\", \"value\": \"Country-specific\"}, {\"label\": \"Renewal\", \"value\": \"Maintenance fees required\"}, {\"label\": \"Requirements\", \"value\": \"Novelty, utility, non-obviousness\"}]",
+      "created_at": "2025-11-04 18:00:28"
+    }
+]
