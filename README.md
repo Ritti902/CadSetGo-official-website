@@ -1,156 +1,195 @@
 <div align="center">
 
-# 🚀 CadSetGo
+# CadSetGo
 
-### Modern Design & Technology Platform
+### Engineering Design • Product Development • CAD Solutions
 
-A modern, responsive web application built with **React, TypeScript, Vite, Node.js, and Express**, focused on delivering a clean UI, smooth user experience, and scalable architecture.
+A modern full-stack web application developed for **CadSetGo**, showcasing engineering services, product development capabilities, customer support, and certificate verification through a fast, responsive, and user-friendly experience.
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<p align="center">
+    <a href="https://cadsetgo.com" target="_blank">
+        <img src="https://img.shields.io/badge/Live%20Website-cadsetgo.com-blue?style=for-the-badge&logo=google-chrome">
+    </a>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
+</p>
 
 </div>
 
 ---
 
-# 📖 About
+## About
 
-CadSetGo is a modern web application developed using the latest frontend and backend technologies. The project focuses on building a fast, responsive, and visually appealing user experience while following clean code practices and a scalable project structure.
+CadSetGo is the official website for **CadSetGo Engineering Solutions**, designed to provide businesses and professionals with information about the company's engineering design, product development, and manufacturing services.
 
-Designed with performance and maintainability in mind, CadSetGo demonstrates modern full-stack development using React, TypeScript, Vite, Node.js, and Express.
-
----
-
-# ✨ Features
-
-- ⚡ Lightning-fast development with Vite
-- 🎨 Modern and responsive user interface
-- 📱 Mobile-first design
-- 🧩 Reusable React components
-- 🔒 Backend powered by Express.js
-- 📂 Organized project architecture
-- 💻 Cross-browser compatibility
-- 🚀 Optimized performance
+The application is built using a modern React ecosystem with a lightweight Express backend, delivering a fast, scalable, and responsive user experience across desktop and mobile devices.
 
 ---
 
-# 🛠 Tech Stack
+# Features
 
-### Frontend
+- Modern responsive interface
+- Professional company portfolio
+- Engineering service showcase
+- Individual service detail pages
+- Certificate verification system
+- Admin dashboard
+- Contact & enquiry form
+- Customer support section
+- Fast client-side routing
+- Optimized production build
+
+---
+
+# Engineering Services
+
+- Special Purpose Machine (SPM) Design
+- New Product Development (NPD)
+- CAD Detailing
+- 3D Printing
+- Medical Equipment Design
+- Robotics & Automation
+
+---
+
+# Tech Stack
+
+## Frontend
+
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
+- React Router
+- Radix UI
+- Lucide React
 
-### Backend
+## Backend
+
 - Node.js
 - Express.js
 
-### Tools
-- npm
-- PostCSS
+## Additional Packages
+
+- Multer
+- XLSX
+- React Hook Form
+- Recharts
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 CadSetGo/
 │
 ├── public/
-├── server/
+├── build/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── pages/
 │   ├── hooks/
 │   ├── lib/
-│   └── ...
+│   ├── pages/
+│   └── utils/
 │
+├── server.js
 ├── package.json
 ├── vite.config.ts
 ├── tsconfig.json
+├── tailwind.config.js
 └── README.md
 ```
 
 ---
 
-# 🚀 Getting Started
+# Installation
 
-### Clone the Repository
+Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/CadSetGo.git
+git clone https://github.com/<YOUR_USERNAME>/CadSetGo.git
 ```
 
-### Install Dependencies
+Go to the project directory
+
+```bash
+cd CadSetGo
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-### Start Development Server
+Run the frontend
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Start Backend
+Run the backend
 
 ```bash
 npm start
 ```
 
----
+Build for production
 
-# 📌 Project Goals
-
-- Build a modern and scalable web application
-- Practice full-stack development
-- Implement reusable UI components
-- Create a responsive user experience
-- Follow clean architecture and best practices
+```bash
+npm run build
+```
 
 ---
 
-# 🔮 Future Enhancements
+# Live Website
 
-- Authentication
-- Dashboard
-- API Integration
-- Performance Optimization
-- Deployment Pipeline
+🌐 https://cadsetgo.com/
 
 ---
 
-# 🤝 Contributing
+# Core Modules
 
-Contributions are welcome. Feel free to fork the repository, create a new branch, and submit a pull request.
+- Home
+- About
+- Services
+- Service Details
+- Contact
+- Support
+- Certificate Verification
+- Admin
 
 ---
 
-# 👨‍💻 Developer
+# Why CadSetGo?
 
-**Ritik**
+- Modern UI/UX
+- Responsive across all devices
+- Component-based architecture
+- Scalable project structure
+- Fast loading performance
+- Clean and maintainable codebase
 
-Passionate about building modern web applications with clean architecture and scalable solutions.
+---
+
+# Developer
+
+**Ritika**
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a star!
+Made with ❤️ using React, TypeScript, Vite, Node.js & Express
 
-Made with ❤️ using React, TypeScript, Node.js & Vite.
+⭐ If you found this project interesting, don't forget to star the repository.
 
 </div>
